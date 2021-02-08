@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TetsNG SessionTest Automation]" parallel="methods">
+  <test thread-count="5" name="Diff(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailID" value="mdirfan201@gmail.com"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <classes>
+      <class name="com.TestRunner.ExceptionTimeoutTestNg">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.TestRunner.ExceptionTimeoutTestNg -->
+      <class name="com.TestRunner.GoogleTest">
+        <methods>
+          <include name="googlemailTest"/>
+          <include name="setup"/>
+          <include name="test3"/>
+          <include name="googleLogoTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestRunner.GoogleTest -->
+    </classes>
+  </test> <!-- Diff(failed) -->
+</suite> <!-- Failed suite [TetsNG SessionTest Automation] -->

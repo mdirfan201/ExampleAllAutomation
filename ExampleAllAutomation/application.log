@@ -1,0 +1,30 @@
+2021-02-08 12:47:36,502  INFO [main] GoogleTitleTest:24 - ************************Starting TestCase Started*******************************
+2021-02-08 12:47:38,526  INFO [main] GoogleTitleTest:28 - Launching Chrome Browser
+2021-02-08 12:47:40,680  INFO [main] GoogleTitleTest:34 - Entering and opening application URL 
+2021-02-08 12:47:40,681  WARN [main] GoogleTitleTest:35 - Hey tis is just awarning message
+2021-02-08 12:47:40,681 FATAL [main] GoogleTitleTest:36 - This is just fatel error message
+2021-02-08 12:47:40,681 DEBUG [main] GoogleTitleTest:37 - This is Debug message
+2021-02-08 12:47:40,687  INFO [main] GoogleTitleTest:57 - ********************Starting TestCase******************************
+2021-02-08 12:47:40,687  INFO [main] GoogleTitleTest:58 - ********************googleLogoTest******************************
+2021-02-08 12:47:40,776  INFO [main] GoogleTitleTest:61 - ******************** TestCase Ended******************************
+2021-02-08 12:47:40,776  INFO [main] GoogleTitleTest:62 - ********************googleLogoTest******************************
+2021-02-08 12:47:41,482  INFO [main] GoogleTitleTest:74 - ****************************Browser Got Closed
+2021-02-08 12:47:41,486  INFO [main] GoogleTitleTest:24 - ************************Starting TestCase Started*******************************
+2021-02-08 12:47:42,822  INFO [main] GoogleTitleTest:28 - Launching Chrome Browser
+2021-02-08 12:47:44,859  INFO [main] GoogleTitleTest:34 - Entering and opening application URL 
+2021-02-08 12:47:44,859  WARN [main] GoogleTitleTest:35 - Hey tis is just awarning message
+2021-02-08 12:47:44,860 FATAL [main] GoogleTitleTest:36 - This is just fatel error message
+2021-02-08 12:47:44,861 DEBUG [main] GoogleTitleTest:37 - This is Debug message
+2021-02-08 12:47:44,863  INFO [main] GoogleTitleTest:42 - ********************Starting TestCase******************************
+2021-02-08 12:47:44,863  INFO [main] GoogleTitleTest:43 - ********************googleTitle******************************
+2021-02-08 12:47:44,868  INFO [main] GoogleTitleTest:47 - Loging page title is--> Google
+2021-02-08 12:47:44,869  INFO [main] GoogleTitleTest:50 - ********************TestCase Ended******************************
+2021-02-08 12:47:44,869  INFO [main] GoogleTitleTest:51 - ********************googleTitle******************************
+2021-02-08 12:47:45,637  INFO [main] GoogleTitleTest:74 - ****************************Browser Got Closed
+2021-02-08 12:47:45,638  INFO [main] GoogleTitleTest:24 - ************************Starting TestCase Started*******************************
+2021-02-08 12:47:46,940  INFO [main] GoogleTitleTest:28 - Launching Chrome Browser
+2021-02-08 12:47:48,886  INFO [main] GoogleTitleTest:34 - Entering and opening application URL 
+2021-02-08 12:47:48,887  WARN [main] GoogleTitleTest:35 - Hey tis is just awarning message
+2021-02-08 12:47:48,887 FATAL [main] GoogleTitleTest:36 - This is just fatel error message
+2021-02-08 12:47:48,887 DEBUG [main] GoogleTitleTest:37 - This is Debug message
+2021-02-08 12:47:50,160  INFO [main] GoogleTitleTest:74 - ****************************Browser Got Closed

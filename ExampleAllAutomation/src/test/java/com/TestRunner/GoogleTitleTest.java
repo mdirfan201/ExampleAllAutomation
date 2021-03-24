@@ -1,5 +1,7 @@
 package com.TestRunner;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -39,6 +41,14 @@ Logger log= Logger.getLogger(GoogleTitleTest.class);
 	
 	@Test()
 	public void googleTitle(){
+		log.info("********************Checking Current Date And Time*****************************");
+		DateTimeFormatter dft= DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+		LocalDateTime now=LocalDateTime.now();
+		System.out.println("The Current Time with date is...:"+ dft.format(now));
+		log.info("********************Printing Current Date And Time******************************");
+		
+		
+		
 		log.info("********************Starting TestCase******************************");
 		log.info("********************googleTitle******************************");
 		String title= driver.getTitle();
